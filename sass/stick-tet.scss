@@ -107,8 +107,8 @@ main {position: relative;height: 100vh;}
 }
 
 .modal-dialog{
-  .modal-content{background-color: transparent;border:none;
-    .btn-close{position: absolute;width: 54px;height: 54px;z-index: 100;right:12%;top:2rem;opacity: 1;
+  .modal-content{background: url(../images/popup.png) no-repeat top center;width: 739px;height: 390px;
+    .btn-close{position: absolute;width: 54px;height: 54px;z-index: 100;right:0;top:0;opacity: 1;
       img{max-width: 100%;}
     }
     .modal-body{

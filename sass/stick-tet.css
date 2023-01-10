@@ -611,8 +611,9 @@ main {
 }
 
 .modal-dialog .modal-content {
-  background-color: transparent;
-  border: none;
+  background: url(../images/popup.png) no-repeat top center;
+  width: 739px;
+  height: 390px;
 }
 
 .modal-dialog .modal-content .btn-close {
@@ -620,8 +621,8 @@ main {
   width: 54px;
   height: 54px;
   z-index: 100;
-  right: 12%;
-  top: 2rem;
+  right: 0;
+  top: 0;
   opacity: 1;
 }
 
