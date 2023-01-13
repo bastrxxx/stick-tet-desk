@@ -35,47 +35,37 @@
 		
 		<div class="modal fade" id="dangnhap" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
 			<div class="modal-dialog modal-xl modal-dialog-centered">
-			  <div class="modal-content py-5 border-0">
+			  <div class="modal-content p-5 border-0 mx-auto">
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/btn-close.png" alt=""/></button>
 				<div class="modal-body py-5">
-				  <h3 class="text-center py-3">Bạn vui lòng đăng nhập để nhận quà!</h3>
+				  <h3 class="text-center py-3">Bạn chưa đăng nhập vui lòng đăng nhập để tiếp tục</h3>
 				  <a href="#" class="btndangnhap"><img src="images/btn-dangnhap.png" alt=""></a>
 				</div>
 			  </div>
 			</div>
 		</div>
-		<!---Trailer-->
-		<div class="modal fade" id="trailer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-xl  modal-dialog-centered">
-			  <div class="modal-content">
-				<div class="modal-body">
-					<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-						<i class="fa fa-times" aria-hidden="true"></i>
-					  </button>
-					  <div class="embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
-			   allowfullscreen></iframe>
-					 </div>	    
+
+		<div class="modal fade" id="codehet" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+			  <div class="modal-content p-5 border-0 mx-auto">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/btn-close.png" alt=""/></button>
+				<div class="modal-body py-5">
+				  <h3 class="text-center py-3">Số lượng code trong ngày đã hết,<br> vui lòng quay lại vào ngày mai</h3>
 				</div>
-			  </div><!-- /.modal-content -->
-			</div><!-- /.modal-dialog -->
-		  </div><!-- /.modal -->
-		  <!---Trailer-->
-		  <div class="modal fade" id="nhanvatmoi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-xl  modal-dialog-centered">
-			  <div class="modal-content">
-				<div class="modal-body">
-					<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-						<i class="fa fa-times" aria-hidden="true"></i>
-					  </button>
-					  <div class="embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs"
-			   allowfullscreen></iframe>
-					 </div>	    
+			  </div>
+			</div>
+		</div>
+		
+		<div class="modal fade" id="chuadenngay" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+			  <div class="modal-content p-5 border-0 mx-auto">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="images/btn-close.png" alt=""/></button>
+				<div class="modal-body py-5">
+				  <h3 class="text-center py-3">Chưa đến thời gian nhận Giftcode này,<br> vui lòng chờ sang ngày tiếp</h3>
 				</div>
-			  </div><!-- /.modal-content -->
-			</div><!-- /.modal-dialog -->
-		  </div><!-- /.modal -->
+			  </div>
+			</div>
+		</div>
 
 		<div id="layout" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 			<ul class="logotop px-5">
@@ -100,7 +90,7 @@
 					<h3 class="title"><img src="images/title2.png" alt="" class="mw-100 d-block mx-auto"></h3>
 					<ul>
 						<li>
-							<a href="#" class="item danhan">
+							<a href="#" class="item danhan" data-bs-toggle="modal" data-bs-target="#codehet">
 								<img src="images/it1.png" alt="" class="normal">
 								<img src="images/it1-ds.png" alt="" class="disable">
 							</a>
@@ -112,31 +102,31 @@
 							</a>
 						</li>
 						<li>
-							<a href="#" class="item">
+							<a href="#" class="item" data-bs-toggle="modal" data-bs-target="#chuadenngay">
 								<img src="images/it3.png" alt="" class="normal">
 								<img src="images/it3-ds.png" alt="" class="disable">
 							</a>
 						</li>
 						<li>
-							<a href="#" class="item">
+							<a href="#" class="item" data-bs-toggle="modal" data-bs-target="#chuadenngay">
 								<img src="images/it4.png" alt="" class="normal">
 								<img src="images/it4-ds.png" alt="" class="disable">
 							</a>
 						</li>
 						<li>
-							<a href="#" class="item">
+							<a href="#" class="item" data-bs-toggle="modal" data-bs-target="#chuadenngay">
 								<img src="images/it5.png" alt="" class="normal">
 								<img src="images/it5-ds.png" alt="" class="disable">
 							</a>
 						</li>
 						<li>
-							<a href="#" class="item">
+							<a href="#" class="item" data-bs-toggle="modal" data-bs-target="#chuadenngay">
 								<img src="images/it6.png" alt="" class="normal">
 								<img src="images/it6-ds.png" alt="" class="disable">
 							</a>
 						</li>
 						<li>
-							<a href="#" class="item">
+							<a href="#" class="item" data-bs-toggle="modal" data-bs-target="#chuadenngay">
 								<img src="images/it7.png" alt="" class="normal">
 								<img src="images/it7-ds.png" alt="" class="disable">
 							</a>

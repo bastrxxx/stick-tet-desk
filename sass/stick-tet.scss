@@ -58,7 +58,7 @@ main {position: relative;height: 100vh;}
 }
 
 /*=Header=*/
-.header {position: relative;background:url(../images/bg-head.jpg) no-repeat;height: 1053px;background-size:contain;
+.header {position: relative;background:url(../images/bg-head.jpg) no-repeat;height: 1053px;background-size:contain;position: relative;z-index: 2;
   .btn-trailer{width: 800px;height: 500px;display: block;margin: 0 auto;position: absolute;z-index:2;left: 50%;transform: translateX(-50%);bottom: 0;}
   .bg-onvideo{position: absolute;z-index: 2;bottom:-70px;left: 50%;transform: translate(-50%);width: 100%;height:auto;
     img{max-width: 100%;display: block;}
@@ -73,7 +73,7 @@ main {position: relative;height: 100vh;}
   }
 }
 
-.page2{background: url(../images/bg2.jpg) no-repeat top center;height: 897px;position: relative;margin-top:-1px;
+.page2{background: url(../images/bg2.jpg) no-repeat top center;height: 900px;position: relative;margin-top:-3px;z-index: 3;
   ul{list-style: none;padding: 0;display: flex;align-items: center;justify-content: center;
     li{
       a.item{

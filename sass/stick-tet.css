@@ -417,6 +417,8 @@ main {
   background: url(../images/bg-head.jpg) no-repeat;
   height: 1053px;
   background-size: contain;
+  position: relative;
+  z-index: 2;
 }
 
 .header .btn-trailer {
@@ -483,9 +485,10 @@ main {
 
 .page2 {
   background: url(../images/bg2.jpg) no-repeat top center;
-  height: 897px;
+  height: 900px;
   position: relative;
-  margin-top: -1px;
+  margin-top: -3px;
+  z-index: 3;
 }
 
 .page2 ul {
